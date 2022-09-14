@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/RecipeLogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Express Eat</title>
+</head>
+<body>
+
+    <!--- Navigation Bar -->
+    <div class="contact-header">
+        <div class="header">
+            <nav class="nav-bar">
+                <img src="/img/Logo.png" class="brand-name">
+                <a href="#" class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="menu-bar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+                <div class="contact-wrapper">
+                    <div class="contact-title">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="subtitle">
+                            <p>You can make any food request on the website. Simply submit a request using the form.</p>
+                    </div>
+                    <div class="box">
+                        <!--Form-->
+                        <div class="contact form">
+                            <h3>Send a Request</h3>
+                            <form class="gform pure-form pure-form-stacked" method="POST" data-email="medalladachris100@gmail.com"
+                            action="https://script.google.com/macros/s/AKfycbwsiaU1gQliSZE7SXJD2elgH2quXOuTVpa8oYqlq4hIgmjHI2L_SS8ma-ZGzkPcvoc0Hw/exec" onsubmit="event.preventDefault(); validateForm()">
+                                <div class="formBox">
+                                    <div class="row50">
+                                        <div class="inputBox">
+                                            <label for="name">Name:</label>
+                                            <input type="text" name="name" id="name" placeholder="Your Name">
+                                            <small class="error"></small>
+                                        </div>
+                                        <div class="inputBox">
+                                            <label for="email">Email:</label>
+                                            <input type="text" name="email" id="email" placeholder="Your Email">
+                                            <small class="error"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row100">
+                                        <div class="inputBox">
+                                            <label for="message">Message:</label>
+                                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                                            <small class="error"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row100">
+                                        <div class="inputBox">
+                                            <input type="submit" id="sendMessage" value="Send Message" >
+                                            <p id="success"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--Info-->
+                        <div class="contact info">
+                            <h3>Contact Information</h3>
+                            <div class="infoBox">
+                                <div>
+                                    <span><ion-icon name="location-outline"></ion-icon></span>
+                                    <p>Bangkal, Makati City <br>Philippines</p>
+                                </div>
+                                <div>
+                                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                                    <a href="mailto:medalladachris100@gmail.com">medalladachris100@gmail.com</a> 
+                                </div>
+                                <div>
+                                    <span><ion-icon name="call-outline"></ion-icon></span>
+                                    <a href="tel:+639951617400">+63 995 161 7400</a> 
+                                </div>
+                                <ul class="socMed">
+                                    <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                    <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                    <li><a href=""><ion-icon name="logo-github"></ion-icon></a></li>
+                                    <li><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Map-->
+                        <div class="contact map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.984151583763!2d121.00904541744386!3d14.542898999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c93ff2b1b5fb%3A0x23c1c2ad91596d87!2s515%20Gen.%20M.%20Hizon%2C%20Makati%2C%201233%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1662454414546!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="social-btn">
+            <a href="https://www.facebook.com/Cmedsss" target="_blank" ><i class="	fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tiaanmeds/" target="_blank" ><i class="	fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tianmeds/" target="_blank"><i class="	fab fa-linkedin"></i></a>
+            <a href="https://github.com/TianMeds" target="_blank" "><i class="	fab fa-github"></i></a>
+        </div>
+            <div class="quick-bar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        <p>Copyright &copy; 2022 Christian Medallada. All right reserved</p>  
+    </div>
+    
+<script src="/assets/index.js"></script>
+<script src="/assets/message.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
