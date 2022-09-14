@@ -43,7 +43,7 @@ body{
 .header{
     width: 100%;
     height: 800px;
-    background: url(/img/Food_BG.webp);
+    background: url(./img/Food_BG.webp);
     background-size: cover;
     background-position: center;
 }
