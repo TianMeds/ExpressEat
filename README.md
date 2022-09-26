@@ -2,7 +2,7 @@
 <h1 align="center"><a href="https://tianmeds.me/ExpressEat/ </a></h1>
 <p align="center">This is my Recipe Website that i developed. </p>
 <br>
-<h2>_ Tech Stack of the Website _ </h2>
+  <h2><em>Tech Stack of the Website</em></h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
